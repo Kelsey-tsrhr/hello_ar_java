@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="24dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="24dp"
+    android:paddingBottom="8dp">
+
+    <Switch
+        android:id="@+id/switch_narrow_door_detection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="56dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"
+        android:text="窄门识别"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_narrow_door_setting_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="12dp"
+        android:text="需要同时看到左右门框，不要求上下门框。"
+        android:textSize="13sp" />
+
+    <Switch
+        android:id="@+id/switch_corridor_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="56dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"
+        android:text="楼道低频提醒模式"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_corridor_mode_setting_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="8dp"
+        android:text="沿路线方向正确时减少重复方向提醒。"
+        android:textSize="13sp" />
+
+</LinearLayout>
