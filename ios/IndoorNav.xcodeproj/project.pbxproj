@@ -1,0 +1,98 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+		A10000000000000000000001 /* IndoorNavApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* IndoorNavApp.swift */; };
+		A10000000000000000000002 /* NavigationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* NavigationModels.swift */; };
+		A10000000000000000000003 /* LocalizationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* LocalizationClient.swift */; };
+		A10000000000000000000004 /* RoutePlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* RoutePlanner.swift */; };
+		A10000000000000000000005 /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* NavigationViewModel.swift */; };
+		A10000000000000000000006 /* IndoorARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* IndoorARView.swift */; };
+		A10000000000000000000007 /* NavigationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* NavigationScreen.swift */; };
+
+		A20000000000000000000001 /* IndoorNavApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorNavApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* NavigationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationModels.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* LocalizationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationClient.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* RoutePlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePlanner.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* IndoorARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoorARView.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* NavigationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationScreen.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000000000000000000009 /* Backend.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Backend.xcconfig; sourceTree = "<group>"; };
+		A2000000000000000000000A /* IndoorNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndoorNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+
+		A30000000000000000000001 /* IndoorNav */ = {
+			isa = PBXGroup;
+			children = (
+				A30000000000000000000002 /* Config */,
+				A30000000000000000000003 /* IndoorNav */,
+				A30000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A30000000000000000000002 /* Config */ = {isa = PBXGroup; children = (A20000000000000000000009 /* Backend.xcconfig */, ); path = Config; sourceTree = "<group>"; };
+		A30000000000000000000003 /* IndoorNav */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* IndoorNavApp.swift */,
+				A20000000000000000000002 /* NavigationModels.swift */,
+				A20000000000000000000003 /* LocalizationClient.swift */,
+				A20000000000000000000004 /* RoutePlanner.swift */,
+				A20000000000000000000005 /* NavigationViewModel.swift */,
+				A20000000000000000000006 /* IndoorARView.swift */,
+				A20000000000000000000007 /* NavigationScreen.swift */,
+				A20000000000000000000008 /* Info.plist */,
+			);
+			path = IndoorNav;
+			sourceTree = "<group>";
+		};
+		A30000000000000000000004 /* Products */ = {isa = PBXGroup; children = (A2000000000000000000000A /* IndoorNav.app */, ); name = Products; sourceTree = "<group>"; };
+
+		A40000000000000000000001 /* IndoorNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50000000000000000000002 /* Build configuration list for PBXNativeTarget "IndoorNav" */;
+			buildPhases = (
+				A60000000000000000000001 /* Sources */,
+				A60000000000000000000002 /* Frameworks */,
+				A60000000000000000000003 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = IndoorNav;
+			productName = IndoorNav;
+			productReference = A2000000000000000000000A /* IndoorNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+
+		A50000000000000000000001 /* Build configuration list for PBXProject "IndoorNav" */ = {isa = XCConfigurationList; buildConfigurations = (A70000000000000000000001 /* Debug */, A70000000000000000000002 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A50000000000000000000002 /* Build configuration list for PBXNativeTarget "IndoorNav" */ = {isa = XCConfigurationList; buildConfigurations = (A70000000000000000000003 /* Debug */, A70000000000000000000004 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+
+		A60000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001 /* IndoorNavApp.swift in Sources */, A10000000000000000000002 /* NavigationModels.swift in Sources */, A10000000000000000000003 /* LocalizationClient.swift in Sources */, A10000000000000000000004 /* RoutePlanner.swift in Sources */, A10000000000000000000005 /* NavigationViewModel.swift in Sources */, A10000000000000000000006 /* IndoorARView.swift in Sources */, A10000000000000000000007 /* NavigationScreen.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+		A60000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A60000000000000000000003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+
+		A70000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_STRICT_OBJC_MSGSEND = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		A70000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_NS_ASSERTIONS = NO; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+		A70000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; baseConfigurationReference = A20000000000000000000009 /* Backend.xcconfig */; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = IndoorNav/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.IndoorNavigation; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		A70000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; baseConfigurationReference = A20000000000000000000009 /* Backend.xcconfig */; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = IndoorNav/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.IndoorNavigation; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+
+		A80000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {BuildIndependentTargetsIn parallel = 1; LastUpgradeCheck = 1600; TargetAttributes = {A40000000000000000000001 = {CreatedOnToolsVersion = 16.0; }; }; };
+			buildConfigurationList = A50000000000000000000001 /* Build configuration list for PBXProject "IndoorNav" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base, zh-Hans, );
+			mainGroup = A30000000000000000000001 /* IndoorNav */;
+			productRefGroup = A30000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (A40000000000000000000001 /* IndoorNav */, );
+		};
+	};
+	rootObject = A80000000000000000000001 /* Project object */;
+}

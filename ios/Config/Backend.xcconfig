@@ -1,0 +1,2 @@
+// Replace this with the public HTTPS API origin before running on a device.
+LOCALIZATION_BASE_URL = https://your-api-host.example/

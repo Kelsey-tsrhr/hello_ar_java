@@ -5,6 +5,11 @@ It combines camera-based relative localization, ARCore pose tracking, graph/A*
 path planning, MediaPipe EfficientDet obstacle detection, depth-based corridor
 and narrow-door analysis, voice commands, text-to-speech, and haptic feedback.
 
+An early native iOS/ARKit client is being developed alongside Android in
+[`ios/`](ios/README.md). It currently covers camera localization, destination
+selection, AR route rendering, basic Chinese turn guidance, and arrival speech;
+it does not yet have feature parity with Android.
+
 ## Build
 
 Open the project in Android Studio with an Android SDK installed, or run:
