@@ -1,0 +1,9 @@
+{
+  "relative_map": [
+    {"image_id": 1, "name": "PATH-1", "position": [0.0, 0.0, -2.0], "type": "camera"},
+    {"image_id": 2, "name": "PATH-2", "position": [2.0, 0.0, -2.0], "type": "camera"},
+    {"image_id": 3, "name": "PATH-3", "position": [4.0, 0.0, -2.0], "type": "camera"},
+    {"image_id": 101, "name": "101", "position": [0.0, 0.0, -3.0], "type": "doorplate"},
+    {"image_id": 102, "name": "102", "position": [4.0, 0.0, -3.0], "type": "doorplate"}
+  ]
+}

@@ -23,6 +23,11 @@ ported and tested.
 Open `Config/Backend.xcconfig` and replace the example URL with the public HTTPS
 origin for the localization service. The service must implement:
 
+For a local network demo, the repository now includes a compatibility backend
+under `backend/`. It returns a fixed sample scene and is intended to verify the
+client connection and route rendering. It does not perform image recognition.
+See `backend/README.md` for startup and deployment instructions.
+
 ```text
 POST /api/v1/localization/query_relative/{sceneId}
 Content-Type: multipart/form-data
